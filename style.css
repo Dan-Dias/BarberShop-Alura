@@ -24,7 +24,7 @@ nav {
 
 nav li{
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 100px 0 0;
 
 }
 
@@ -235,8 +235,8 @@ td, tr {
     box-shadow: 0 5px 50px 0 #000000;
 }
 
-@media screen and (max-width: 4800px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .footer, .produtos li, ul.produtos, .body, .main{
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .footer, .body, .main{
         width: auto;
     }
 
@@ -244,15 +244,22 @@ td, tr {
         text-align: center;
     }
 
-    .video {
-        width: 80%;
-    }
-
     nav {
         position: static;
-        margin: 5%;
+        margin: 10px;
+       text-align: center;
 
     }
+
+    nav li{
+        display: inline;
+        margin: 0 0 0 10px;
+    }
+
+    nav a {
+        font-size: 20px;
+    } 
+    
 
     .utensilios{
         width: 70px;
@@ -264,17 +271,22 @@ td, tr {
         display: none;
     }
 
+    .video{
+        width: 80%;
+    }
 
     .produtos li {
         display: block;
-        width: 50%; 
-        margin-left: auto;
-        margin-right: auto; 
-        margin-top: 10%;
+        width: 85%; 
+        margin: 8%;
         padding: 10%;
         
     }
 
+    .cabelo, .barba, .cabelo-barba {
+        width: 90%;
+    }
+        
     .conteudo-Beneficios{
         width: 95%;
         margin: 0 auto;
@@ -302,9 +314,21 @@ td, tr {
     width: 85%;
 }
 
+.enviar {
+    display: inline-block; 
+    padding: 10px 20px;
+    width: 100%;
+
+}
+
+table{
+    margin: 20px 15% 40px 15%;
+}
+
     footer {
         text-align: center;
         background: url("bg.jpg");
         padding: 10px 0;
+        
     }
 }

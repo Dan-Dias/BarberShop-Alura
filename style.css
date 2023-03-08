@@ -5,7 +5,7 @@ body{
 
 header {
     background: url("bg.jpg");;
-    padding: 20px 0;
+    padding: 20px;
     margin: 0 0 10px 0;
 }
 
@@ -32,7 +32,7 @@ nav a {
     text-transform: uppercase;
     color: #BBBBBB;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 27px;
     text-decoration: none;
 } 
 
@@ -47,7 +47,7 @@ section{
 .produtos {
     width: auto;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 150px;
 }
 
 .produtos li {
@@ -100,7 +100,7 @@ footer {
 
 .formulario {
     width: auto;
-    margin: 0 auto;
+    margin: 5% 10%;
     
 }
 
@@ -167,6 +167,7 @@ td, tr {
     text-align: center;
     margin: 1em 0 1em;
     clear: left;
+    font-weight: bold;
 }
 
 .principal p {
@@ -240,6 +241,10 @@ td, tr {
         width: auto;
     }
 
+    header {
+        padding: 20px 0;
+    }
+
     h1 {
         text-align: center;
     }
@@ -273,6 +278,10 @@ td, tr {
 
     .video{
         width: 80%;
+    }
+
+    .produtos {
+        padding: 0 0;
     }
 
     .produtos li {
